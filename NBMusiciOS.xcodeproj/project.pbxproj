@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3777B4321F62FBE800B59DC1 /* TWApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWApi.h; sourceTree = "<group>"; };
 		4E0A235D1F625F1100623957 /* NBMusiciOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBMusiciOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E0A23611F625F1100623957 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E0A23631F625F1100623957 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3777B4311F62FBDA00B59DC1 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				3777B4321F62FBE800B59DC1 /* TWApi.h */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
 		4E0A23541F625F1100623957 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +110,7 @@
 		4E0A235F1F625F1100623957 /* NBMusiciOS */ = {
 			isa = PBXGroup;
 			children = (
+				3777B4311F62FBDA00B59DC1 /* Api */,
 				4E0A23631F625F1100623957 /* AppDelegate.h */,
 				4E0A23641F625F1100623957 /* AppDelegate.m */,
 				4E0A23661F625F1100623957 /* ViewController.h */,
@@ -207,7 +217,7 @@
 				TargetAttributes = {
 					4E0A235C1F625F1100623957 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 39QV567BQM;
+						DevelopmentTeam = LV2V8CL75S;
 						ProvisioningStyle = Automatic;
 					};
 					4E0A23751F625F1100623957 = {
@@ -425,7 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 39QV567BQM;
+				DEVELOPMENT_TEAM = LV2V8CL75S;
 				INFOPLIST_FILE = NBMusiciOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.msr.nbmusic;
@@ -437,7 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 39QV567BQM;
+				DEVELOPMENT_TEAM = LV2V8CL75S;
 				INFOPLIST_FILE = NBMusiciOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.msr.nbmusic;
@@ -514,6 +524,7 @@
 				4E0A238C1F625F1200623957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E0A238D1F625F1200623957 /* Build configuration list for PBXNativeTarget "NBMusiciOSTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +533,7 @@
 				4E0A238F1F625F1200623957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E0A23901F625F1200623957 /* Build configuration list for PBXNativeTarget "NBMusiciOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +542,7 @@
 				4E0A23921F625F1200623957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
